@@ -15,7 +15,7 @@ $(document).ready(function () {
                 client_id: "06be22f4c5391e6b95cd",
                 client_secret: "7cc57b2aa9e976f46c43f5ce6b0f12a42e8d138b",
                 sort: "created: asc",
-                per_page: 5,
+                per_page: 5
               },
         }).then(function(repos){
             $.each(repos,function(index,repo){
